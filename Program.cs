@@ -12,7 +12,7 @@ namespace Bigdata.OrcTesseract
             cmdHandler.Register("ocr", (param) =>
             {
                 new TesseractEngineWrapper().Handle(param);
-            }, @"full file path or folder eg: orc eng c:/orc.jpg eg: orc vie c:/folderimg");
+            }, @"ocr full file path or folder eg: ocr eng c:/orc.jpg eg: ocr vie c:/folderimg");
 
             while (true)
             {
